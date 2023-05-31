@@ -1,7 +1,7 @@
 Recon:
 
-Hunter.io - emails
-Phonebook.cz - emails (need to sign up for account)
+Hunter.io - emails\
+Phonebook.cz - emails (need to sign up for account)\
 Clearbit chrome extension - emails
 tools.verifyemailaddress.io - 
 email-checker.net/validate - emails
