@@ -30,8 +30,7 @@ nessus essentials - vuln scanner.
 
 exploitation basics:\
 msfconsole - as above\
-hydra - brute force password\
-tool? - credential stuffing
+hydra - brute force password - credential stuffing
 
 Foxy Proxy - For Firefox, this makes switching proxy settings on/off VERY easy.
 
@@ -44,4 +43,6 @@ waybackurls - scan archive.org wayback machine for interesting things (various f
 gowitness / eyewitness - take screenshots of pages found (legion can also do this)
 
 ccwillem/danglingdomains - CNAME checking, trying to look into this shortly... (seems to just crap out? needs a closer look).\
-anshumanbh/tko-subs - also not working great, needs more research.
+anshumanbh/tko-subs - also not working great, needs more research.\
+Yahoo! SubdomainSleuth - https://github.com/yahoo/SubdomainSleuth - need to look into.
+
