@@ -44,5 +44,5 @@ gowitness / eyewitness - take screenshots of pages found (legion can also do thi
 
 ccwillem/danglingdomains - CNAME checking, trying to look into this shortly... (seems to just crap out? needs a closer look).\
 anshumanbh/tko-subs - also not working great, needs more research.\
-Yahoo! SubdomainSleuth - https://github.com/yahoo/SubdomainSleuth - need to look into.
+Yahoo! SubdomainSleuth - https://github.com/yahoo/SubdomainSleuth - Looks like it runs analysis on a zone file offline (but queries active Internet resources). This might be helpful at some point but not right now.
 
