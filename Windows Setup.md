@@ -26,4 +26,7 @@ The WSL version of Kali comes relatively bare bones. Luckily (in my testing at l
 3. [Spiderfoot](https://github.com/smicallef/spiderfoot) - This is a pretty decent tool for OSINT gathering. In all honesty, I haven't had a lot of luck with it, but I suspect it's mostly in my usage (or lack of understanding). `sudo apt spiderfoot`.
 
 ### Windows Installs
-1. JSON Viewer Pro
+For my purposes as a browser I'll be using Chrome. Some applications are going to be used natively on Windows as opposed to their Kali counterparts.
+
+1. [NMAP](https://nmap.org/) - Network scanning tool - we'll elect to run this on Windows rather than WSL because we're going through one less hop. Depending on how the networking is configured for WSL (I've not looked into this) we also may avoid routing issues.
+2. [Burp Suite](https://portswigger.net/burp) - Amazing website / web application testing tool. Inspect traffic, intercept requests and repeat them, change them, etc. We're going to run this on Windows rather than Kali so that we can integrate more natively with our normal web browser. This could very well be the free Community edition, or Professional, does not matter.
