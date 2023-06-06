@@ -30,3 +30,6 @@ For my purposes as a browser I'll be using Chrome. Some applications are going t
 
 1. [NMAP](https://nmap.org/) - Network scanning tool - we'll elect to run this on Windows rather than WSL because we're going through one less hop. Depending on how the networking is configured for WSL (I've not looked into this) we also may avoid routing issues.
 2. [Burp Suite](https://portswigger.net/burp) - Amazing website / web application testing tool. Inspect traffic, intercept requests and repeat them, change them, etc. We're going to run this on Windows rather than Kali so that we can integrate more natively with our normal web browser. This could very well be the free Community edition, or Professional, does not matter.
+3. [Foxy Proxy](https://getfoxyproxy.org/) - Browser based plugin that makes switching proxies for your every day browser a breeze. This isn't mandatory, but makes it A LOT easier to switch between using Burp as a proxy and not. If there's a different variant you like by all means, roll with it.
+4. [Wappalyzer](https://www.wappalyzer.com/apps/) - Fantastic browser plugin that will inspect site components and produce a report of different frameworks in use, security headers, libraries that are detected, CDNs, etc. This tool is very helpful in the information gathering phase.
+5. 
