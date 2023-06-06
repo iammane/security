@@ -24,6 +24,17 @@ The WSL version of Kali comes relatively bare bones. Luckily (in my testing at l
 1. [GIT](https://git-scm.com/) - I can't remember if it's there or not, I don't think so. Simply run `sudo apt install git` and you're off to the races.
 2. [Legion](https://github.com/GoVanguard/legion) - This tool is a good combo of NMAP scanning + Hydra, brute forcing, screen shotting. It's a nice one stop shop with a GUI. `sudo apt install legion`. The cool part about this one is that once you invoke it you actually get the graphical window on your Windows desktop. **It must be run with sudo, ie, `sudo legion`**
 3. [Spiderfoot](https://github.com/smicallef/spiderfoot) - This is a pretty decent tool for OSINT gathering. In all honesty, I haven't had a lot of luck with it, but I suspect it's mostly in my usage (or lack of understanding). `sudo apt spiderfoot`.
+4. [Go](https://go.dev/doc/install) - Many tools are written in Go, along with Python. Python is likely installed already, and also is likely already up to some flavor of version 3. However, by default, Go is not installed. Run the following to install and configure:
+
+```
+sudo apt install -y golang
+export GOROOT=/usr/lib/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+# This may or may not be required, but the below will reload .bashrc
+source .bashrc 
+```
+5. Verify that Python 3.x is installed. There may still be some tooling requiring Python 2.7, if at all possible find alternatives. If Python 3 is not installed for any reason simply run `sudo apt install python3`.
 
 ### Windows Installs
 Some applications are going to be used natively on Windows as opposed to their Kali counterparts. This hybrid approach affords us the most flexibility. 
@@ -32,4 +43,5 @@ Some applications are going to be used natively on Windows as opposed to their K
 2. [Burp Suite](https://portswigger.net/burp) - Amazing website / web application testing tool. Inspect traffic, intercept requests and repeat them, change them, etc. We're going to run this on Windows rather than Kali so that we can integrate more natively with our normal web browser. This could very well be the free Community edition, or Professional, does not matter.
 3. [Foxy Proxy](https://getfoxyproxy.org/) - Browser based plugin that makes switching proxies for your every day browser a breeze. This isn't mandatory, but makes it A LOT easier to switch between using Burp as a proxy and not. If there's a different variant you like by all means, roll with it.
 4. [Wappalyzer](https://www.wappalyzer.com/apps/) - Fantastic browser plugin that will inspect site components and produce a report of different frameworks in use, security headers, libraries that are detected, CDNs, etc. This tool is very helpful in the information gathering phase.
-5. 
+5. [Go](https://go.dev/doc/install) - On the list again, this time we want it for Windows also. There's an MSI for installing on Windows.
+6. [Python 3](https://www.python.org/downloads/) - Maybe even more important than Go, many tools are written in Python. As above, avoid 2.7.x, it's been EOL for some time. Any tools worth their weight have been updated to use Python 3.x. You can install Python from the Windows Store but in my own experience I've found the updating/reinstallation kind of unpredictable - just download the installer from the main site and use that.
