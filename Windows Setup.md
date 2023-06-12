@@ -35,7 +35,8 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 source .bashrc 
 ```
 5. Verify that Python 3.x is installed. There may still be some tooling requiring Python 2.7, if at all possible find alternatives. If Python 3 is not installed for any reason simply run `sudo apt install python3`.
-6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer. 
+6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer (this is good for a quick check).
+7. [testssl.sh](https://github.com/drwetter/testssl.sh) - Another comprehensive SSL/TLS analyzer, takes longer than sslyze but the information output is more detailed.
 
 ### Windows Installs
 Some applications are going to be used natively on Windows as opposed to their Kali counterparts. This hybrid approach affords us the most flexibility. 
@@ -46,3 +47,10 @@ Some applications are going to be used natively on Windows as opposed to their K
 4. [Wappalyzer](https://www.wappalyzer.com/apps/) - Fantastic browser plugin that will inspect site components and produce a report of different frameworks in use, security headers, libraries that are detected, CDNs, etc. This tool is very helpful in the information gathering phase.
 5. [Go](https://go.dev/doc/install) - On the list again, this time we want it for Windows also. There's an MSI for installing on Windows.
 6. [Python 3](https://www.python.org/downloads/) - Maybe even more important than Go, many tools are written in Python. As above, avoid 2.7.x, it's been EOL for some time. Any tools worth their weight have been updated to use Python 3.x. You can install Python from the Windows Store but in my own experience I've found the updating/reinstallation kind of unpredictable - just download the installer from the main site and use that.
+
+## Fantastic web resources
+
+These resources are web based tools that you can access from anywhere.
+
+1. [crt.sh](https://crt.sh) - Checks certificates for a given domain (weird, seems kind of flakey but have used this previously. Will come back to it).
+2. [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
