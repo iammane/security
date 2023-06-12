@@ -35,6 +35,7 @@ export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 source .bashrc 
 ```
 5. Verify that Python 3.x is installed. There may still be some tooling requiring Python 2.7, if at all possible find alternatives. If Python 3 is not installed for any reason simply run `sudo apt install python3`.
+6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer. 
 
 ### Windows Installs
 Some applications are going to be used natively on Windows as opposed to their Kali counterparts. This hybrid approach affords us the most flexibility. 
