@@ -48,7 +48,7 @@ Some applications are going to be used natively on Windows as opposed to their K
 5. [Go](https://go.dev/doc/install) - On the list again, this time we want it for Windows also. There's an MSI for installing on Windows.
 6. [Python 3](https://www.python.org/downloads/) - Maybe even more important than Go, many tools are written in Python. As above, avoid 2.7.x, it's been EOL for some time. Any tools worth their weight have been updated to use Python 3.x. You can install Python from the Windows Store but in my own experience I've found the updating/reinstallation kind of unpredictable - just download the installer from the main site and use that.
 
-## Fantastic web resources
+## Fantastic Web Resources
 
 These resources are web based tools that you can access from anywhere.
 
