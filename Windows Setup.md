@@ -52,5 +52,5 @@ Some applications are going to be used natively on Windows as opposed to their K
 
 These resources are web based tools that you can access from anywhere.
 
-1. [crt.sh](https://crt.sh) - Checks certificates for a given domain (weird, seems kind of flakey but have used this previously. Will come back to it).
-2. [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
+* [crt.sh](https://crt.sh) - Checks certificates for a given domain (weird, seems kind of flakey but have used this previously. Will come back to it).
+* [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
