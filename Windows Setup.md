@@ -37,6 +37,7 @@ source .bashrc
 5. Verify that Python 3.x is installed. There may still be some tooling requiring Python 2.7, if at all possible find alternatives. If Python 3 is not installed for any reason simply run `sudo apt install python3`.
 6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer (this is good for a quick check). `sudo apt install sslyze`.
 7. [testssl.sh](https://github.com/drwetter/testssl.sh) - Another comprehensive SSL/TLS analyzer, takes longer than sslyze but the information output is more detailed. `git clone --depth 1 https://github.com/drwetter/testssl.sh.git`.
+8. [amass](https://github.com/owasp-amass/amass) - Network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques. `sudo apt install amass`.
 
 ### Windows Installs
 Some applications are going to be used natively on Windows as opposed to their Kali counterparts. This hybrid approach affords us the most flexibility. 
