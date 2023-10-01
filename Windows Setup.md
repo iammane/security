@@ -38,6 +38,12 @@ source .bashrc
 6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer (this is good for a quick check). `sudo apt install sslyze`.
 7. [testssl.sh](https://github.com/drwetter/testssl.sh) - Another comprehensive SSL/TLS analyzer, takes longer than sslyze but the information output is more detailed. `git clone --depth 1 https://github.com/drwetter/testssl.sh.git`.
 8. [amass](https://github.com/owasp-amass/amass) - Network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques. `sudo apt install amass`.
+9. xdg-utils and [Chromium](https://www.chromium.org/Home/) - Not 100% mandatory, but if you need to open up resources in the VM that are web based this is incredibly handy. **I need to test this further, I have it working on my work laptop but have yet to get it working on my personal**:
+
+```
+sudo apt install xdg-utils
+sudo apt install chromium
+```
 
 ### Windows Installs
 Some applications are going to be used natively on Windows as opposed to their Kali counterparts. This hybrid approach affords us the most flexibility. 
@@ -53,5 +59,5 @@ Some applications are going to be used natively on Windows as opposed to their K
 
 These resources are web based tools that you can access from anywhere.
 
-* [crt.sh](https://crt.sh) - Checks certificates for a given domain (weird, seems kind of flakey but have used this previously. Will come back to it).
+* [crt.sh](https://crt.sh) - Handy for crawling all associated certificates registered to a specific domain.
 * [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
