@@ -54,6 +54,7 @@ Some applications are going to be used natively on Windows as opposed to their K
 4. [Wappalyzer](https://www.wappalyzer.com/apps/) - Fantastic browser plugin that will inspect site components and produce a report of different frameworks in use, security headers, libraries that are detected, CDNs, etc. This tool is very helpful in the information gathering phase.
 5. [Go](https://go.dev/doc/install) - On the list again, this time we want it for Windows also. There's an MSI for installing on Windows.
 6. [Python 3](https://www.python.org/downloads/) - Maybe even more important than Go, many tools are written in Python. As above, avoid 2.7.x, it's been EOL for some time. Any tools worth their weight have been updated to use Python 3.x. You can install Python from the Windows Store but in my own experience I've found the updating/reinstallation kind of unpredictable - just download the installer from the main site and use that.
+7. [ZAP Proxy](https://www.zaproxy.com/download/) - Another scanning tool with a focus on web app scanning (rather than traffic inspection/replay/modification).
 
 ## Fantastic Web Resources
 
@@ -61,3 +62,5 @@ These resources are web based tools that you can access from anywhere.
 
 * [crt.sh](https://crt.sh) - Handy for crawling all associated certificates registered to a specific domain.
 * [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
+* [Snyk Vulnerability Database](https://security.snyk.io/) - Excellent for searching into CVEs for additional information you won't normally get.
+* [Ciphersuite Search](https://ciphersuite.info/) - Great tool for evaluating cipher suites and issues with ones presented by web applications.
