@@ -64,3 +64,4 @@ These resources are web based tools that you can access from anywhere.
 * [Qualys SSL Test](https://www.ssllabs.com/ssltest/) - Very good web based SSL server test, useful in seeing various kinds of information around the SSL/TLS configuration for a given site / web app.
 * [Snyk Vulnerability Database](https://security.snyk.io/) - Excellent for searching into CVEs for additional information you won't normally get.
 * [Ciphersuite Search](https://ciphersuite.info/) - Great tool for evaluating cipher suites and issues with ones presented by web applications.
+* [CSP Evaluator](https://csp-evaluator.withgoogle.com/) - Quickly analyze the CSP for a given domain, or explicitly copy in a CSP for evaluation against benchmarks.
