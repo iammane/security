@@ -38,7 +38,7 @@ source .bashrc
 6. [sslyze](https://www.kali.org/tools/sslyze/) - Excellent cryptographic analyzer, used to see what cipher suites a web site / app will offer (this is good for a quick check). `sudo apt install sslyze`.
 7. [testssl.sh](https://github.com/drwetter/testssl.sh) - Another comprehensive SSL/TLS analyzer, takes longer than sslyze but the information output is more detailed. `git clone --depth 1 https://github.com/drwetter/testssl.sh.git`.
 8. [amass](https://github.com/owasp-amass/amass) - Network mapping of attack surfaces and external asset discovery using open source information gathering and active reconnaissance techniques. `sudo apt install amass`.
-9. xdg-utils and [Chromium](https://www.chromium.org/Home/) - Not 100% mandatory, but if you need to open up resources in the VM that are web based this is incredibly handy. **I need to test this further, I have it working on my work laptop but have yet to get it working on my personal**:
+9. xdg-utils and [Chromium](https://www.chromium.org/Home/) - Not 100% mandatory, but if you need to open up resources in the VM that are web based this is incredibly handy. This seems to be included in the base version of Kali from WSL install repo, though it's not functioning properly on my laptop. This is as of Jan 8th, 2024. Regardless, still handy to have:
 
 ```
 sudo apt install xdg-utils
