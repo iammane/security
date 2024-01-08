@@ -21,7 +21,7 @@ You should at this point be looking at a Linux prompt (from this point forward w
 The WSL version of Kali comes relatively bare bones. Luckily (in my testing at least) most tools can be installed separately and even ones with GUIs work! Before diving into any extra tools be sure to run a quick `sudo apt update` and `sudo apt upgrade`. Once that's set you'll want the following:
 
 ### Linux Installs
-1. [Git](https://git-scm.com/) - By default on the WSL Kali version Git is not there. Simply run `sudo apt install git` and you're off to the races.
+1. [Git](https://git-scm.com/) - It's possible Git is not installed by default. When I first wrote this guide it wasn't, but I've recently run through these steps and it was already there. In the event it's not then run `sudo apt install git` and you're off to the races.
 2. [Legion](https://github.com/GoVanguard/legion) - This tool is a good combo of NMAP scanning + Hydra, brute forcing, screen shotting. It's a nice one stop shop with a GUI. `sudo apt install legion`. The cool part about this one is that once you invoke it you actually get the graphical window on your Windows desktop. **It must be run with sudo, ie, `sudo legion`**
 3. [Spiderfoot](https://github.com/smicallef/spiderfoot) - This is a pretty decent tool for OSINT gathering. In all honesty, I haven't had a lot of luck with it, but I suspect it's mostly in my usage (or lack of understanding). `sudo apt spiderfoot`.
 4. [Go](https://go.dev/doc/install) - Many tools are written in Go, along with Python. Python is likely installed already, and also is likely already up to some flavor of version 3. However, by default, Go is not installed. Run the following to install and configure:
