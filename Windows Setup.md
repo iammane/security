@@ -66,3 +66,5 @@ These resources are web based tools that you can access from anywhere.
 * [Snyk Vulnerability Database](https://security.snyk.io/) - Excellent for searching into CVEs for additional information you won't normally get.
 * [Ciphersuite Search](https://ciphersuite.info/) - Great tool for evaluating cipher suites and issues with ones presented by web applications.
 * [CSP Evaluator](https://csp-evaluator.withgoogle.com/) - Quickly analyze the CSP for a given domain, or explicitly copy in a CSP for evaluation against benchmarks.
+* [JWT Decoder](https://jwt.io) - Quickly decode any JWTs found in testing to see what kind of data is contained inside.
+* [URL encoder](https://www.urlencoder.io) - Handy URL encoder to swap plain text to URL encoded text, useful for various requests and parameter testing.
